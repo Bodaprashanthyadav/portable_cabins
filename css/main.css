@@ -199,7 +199,9 @@ body > section {
 .top-number a:hover{
   color: green;
 }
-
+.top-number a{
+  color:#b6d226 ;
+}
 .social{
   text-align: right;
 }
