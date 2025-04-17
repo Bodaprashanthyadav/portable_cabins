@@ -297,7 +297,7 @@
 
 /* XS Portrait */
 @media (max-width: 580px) {
-  .whatsapp-btn{
+  .whatsapp-btn img{
     width: 70px;
   }
   .top-bar .row {
