@@ -296,8 +296,41 @@
 }
 
 /* XS Portrait */
-@media (max-width: 480px) {
+@media (max-width: 580px) {
+  .top-bar .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  .top-bar .top-number p,
+  .top-bar .top-number {
+    margin: 5px 0;
+    font-size: 14px;
+  }
 
+  .top-bar .social-share {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 10px 0;
+  }
+
+  .top-bar .social-share li {
+    margin: 0 5px;
+  }
+
+  .top-bar .social-share i {
+    font-size: 16px;
+  }
+
+  
+
+  
+
+  
 }
+
+
 
