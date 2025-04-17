@@ -338,7 +338,9 @@
   #recent-works h1,#services h1,#feature h1,#partner h1{
     font-size: 3rem;
   }
-
+  #about-us,#contact-info,#portfolio,#main-slider,#feature{
+    margin-top: 200px;
+  }
   
 }
 
