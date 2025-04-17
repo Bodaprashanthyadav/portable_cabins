@@ -25,9 +25,8 @@ h6 {
 
 h1{
   font-size: 36px;
-  color:#fff;
+ color: #FFF;
 }
-
 h2{
   font-size: 20px;
 }
@@ -370,6 +369,9 @@ background: linear-gradient(#b6d226, #3f8f2f);
 *******Home Page******
 **************************/
 
+.section-t{
+ color: red;
+}
 
 #main-slider {
   position: relative;
@@ -662,7 +664,11 @@ background: linear-gradient(#b6d226, #3f8f2f);
 .recent-work-wrap:hover .overlay {
   opacity: 1;
 }
-
+#recent-works h1,#services h1,#feature h1,#partner h1{
+  background: linear-gradient(#b6d226, #3f8f2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #services {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;

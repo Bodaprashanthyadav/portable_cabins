@@ -298,8 +298,9 @@
 /* XS Portrait */
 @media (max-width: 580px) {
   .whatsapp-btn img{
-    width: 70px;
+    width: 60px;
   }
+
   .top-bar .row {
     display: flex;
     flex-direction: column;
@@ -311,8 +312,11 @@
   .top-bar .top-number {
     margin: 5px 0;
     font-size: 14px;
+  
   }
-
+  .top-number p{
+   white-space: nowrap;
+  }
   .top-bar .social-share {
     display: flex;
     justify-content: center;
