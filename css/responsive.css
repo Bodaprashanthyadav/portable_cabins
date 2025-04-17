@@ -335,6 +335,9 @@
   
 
   
+  #recent-works h1,#feature h1{
+    font-size: 2rem;
+  }
 
   
 }
