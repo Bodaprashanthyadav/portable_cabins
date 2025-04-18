@@ -12,7 +12,10 @@
     margin-right: -10px;
   }
 
-  
+  .animated-item-2{
+   
+    font-size: 2.2rem;
+  }
 
 }
 
@@ -122,6 +125,9 @@
 
   #main-slider .carousel h2 {
     font-size: 20px;
+  }
+  .animated-item-2{
+    font-size: 1.9rem;
   }
 
   .tab-wrap .media .parrent.pull-left, 
@@ -334,9 +340,7 @@
 
   
 
-  .animated-item-2{
-   
-  }
+  
   #recent-works h1,#services h1,#feature h1,#partner h1{
     font-size: 3rem;
   }
