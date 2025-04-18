@@ -337,11 +337,12 @@
   .top-bar .social-share i {
     font-size: 16px;
   }
-
-  
-  #main-slider .carousel .slide-margin{
-    margin-top: 25%;
+  #main-slider {
+    margin-top: 100px !important;
+    
   }
+  
+  
   
   #recent-works h1,#services h1,#feature h1,#partner h1{
     font-size: 3rem;
