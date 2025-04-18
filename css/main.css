@@ -1577,9 +1577,10 @@ ul.social_icons li  a i{
 
 .clients-comments {
     background-image: url("../images/image_bg.png");
-    background-position: center 118px;
+    background-position: center 140px;
     background-repeat: no-repeat;
     margin-bottom: 100px;
+   
 }
 
 .clients-comments img {
@@ -1592,6 +1593,7 @@ ul.social_icons li  a i{
   -moz-transition: all 0.9s ease 0s;
   -webkit-transition: all 0.9s ease 0s;
   -o-transition: all 0.9s ease 0s;
+  box-shadow:  2px 2px 10px black;
 }
 
 .clients-comments h3 {
@@ -2050,6 +2052,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 
 /*********************
 ****blog page css*****
