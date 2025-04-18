@@ -339,7 +339,9 @@
   }
 
   
-
+  #main-slider .carousel .slide-margin{
+    margin-top: 25%;
+  }
   
   #recent-works h1,#services h1,#feature h1,#partner h1{
     font-size: 3rem;
