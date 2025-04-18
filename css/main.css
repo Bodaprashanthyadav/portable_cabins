@@ -30,6 +30,12 @@ h1{
 }
 h2{
   font-size: 20px;
+ 
+    margin-top: 110px;
+    background: linear-gradient(#b6d226, #3f8f2f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
 }
 
 h3{
@@ -309,18 +315,17 @@ input.search-form:hover {
   color: #fff;
 }
 
-.navbar-inverse .navbar-nav > li.active > a,
-.navbar-inverse .navbar-nav > li.active > a:hover,
-.navbar-inverse .navbar-nav > li.active > a:focus,
-.navbar-inverse .navbar-nav > li.open > a,
-.navbar-inverse .navbar-nav > li.open > a:hover,
-.navbar-inverse .navbar-nav > li.open > a:focus {
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
  background-color: #22a236;
 color: #fff;
 border: 2px solid #fff3;
 background: linear-gradient(#b6d226, #3f8f2f);
 }
-
 
 .navbar-inverse .navbar-nav .dropdown-menu {
   background-color: rgba(0,0,0,.85);
@@ -664,11 +669,7 @@ background: linear-gradient(#b6d226, #3f8f2f);
 .recent-work-wrap:hover .overlay {
   opacity: 1;
 }
-#recent-works h1,#services h1,#feature h1,#partner h1{
-  background: linear-gradient(#b6d226, #3f8f2f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 #services {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;
@@ -693,10 +694,6 @@ background: linear-gradient(#b6d226, #3f8f2f);
 
 .services-wrap .pull-left {
   margin-right: 20px;
-}
-.col-sm-6:hover{
-  transform: translateY(-10px);
-  transition: 0.5s ease;
 }
 
 #middle {
@@ -969,7 +966,13 @@ a.accordion-toggle  i{
   border-left: 0 none;
   border-bottom: 0 none;
 }
-
+.animation{
+  white-space: nowrap;
+}
+.animated-item-2{
+  color: #fff ;
+  font-size: 1.8rem;
+}
 #partner {
   background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
   background-size: cover;
