@@ -626,7 +626,8 @@ background: linear-gradient(#b6d226, #3f8f2f);
 }
 
 .recent-work-wrap {
- margin: 10px;
+  box-shadow:  2px 2px 12px #111 ;
+  margin: 2.5rem 1rem;
   position: relative;
 }
 
