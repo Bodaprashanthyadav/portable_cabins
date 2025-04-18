@@ -5,6 +5,7 @@
 *******Typography******
 **************************/
 
+
 body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -308,17 +309,16 @@ input.search-form:hover {
   color: #fff;
 }
 
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus,
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
- background-color: #22a236;
-color: #fff;
-border: 2px solid #fff3;
-background: linear-gradient(#b6d226, #3f8f2f);
+.navbar-nav > li.active > a {
+  background: linear-gradient(#b6d226, #3f8f2f);
+  color: #fff;
+  border-radius: 3px;
+  border: 2px solid #fff3;
 }
+
+
+
+
 
 .navbar-inverse .navbar-nav .dropdown-menu {
   background-color: rgba(0,0,0,.85);
@@ -369,9 +369,7 @@ background: linear-gradient(#b6d226, #3f8f2f);
 *******Home Page******
 **************************/
 
-.section-t{
- color: red;
-}
+
 
 #main-slider {
   position: relative;
@@ -519,7 +517,7 @@ background: linear-gradient(#b6d226, #3f8f2f);
   -o-animation: fadeInUp 300ms linear 300ms both;
   -ms-animation: fadeInUp 300ms linear 300ms both;
   animation: fadeInUp 300ms linear 300ms both;
-  background: #0807074d;
+  
 }
 
 #main-slider .active .animation.animated-item-2 {
@@ -528,7 +526,7 @@ background: linear-gradient(#b6d226, #3f8f2f);
   -o-animation: fadeInUp 300ms linear 600ms both;
   -ms-animation: fadeInUp 300ms linear 600ms both;
   animation: fadeInUp 300ms linear 600ms both;
-  background: #0807074d;
+
 }
 
 #main-slider .active .animation.animated-item-3 {
@@ -693,6 +691,10 @@ background: linear-gradient(#b6d226, #3f8f2f);
 
 .services-wrap .pull-left {
   margin-right: 20px;
+}
+.col-sm-6:hover{
+  transform: translateY(-10px);
+  transition: 0.5s ease;
 }
 
 #middle {

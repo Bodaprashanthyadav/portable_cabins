@@ -71,3 +71,21 @@ jQuery(function($) {'use strict',
 	});	
 });
 
+
+
+  const currentPage = window.location.pathname.split("/").pop() || "index-2.html"; // Fallback to index-2.html if no page
+
+  document.querySelectorAll(".navbar-nav li a").forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage) {
+      link.parentElement.classList.add("active");
+    } else {
+      link.parentElement.classList.remove("active"); // Make sure others are not active
+    }
+  });
+
+
+
+
+     
