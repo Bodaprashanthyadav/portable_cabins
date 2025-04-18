@@ -555,7 +555,13 @@ background: linear-gradient(#b6d226, #3f8f2f);
   -ms-animation: fadeInUp 300ms linear 1200ms both;
   animation: fadeInUp 300ms linear 1200ms both;
 }
-
+.animation{
+  white-space: nowrap;
+}
+.animated-item-2{
+  color: #fff ;
+  
+}
 #feature {
   background: #f2f2f2;
   padding-bottom: 40px;
@@ -970,13 +976,7 @@ a.accordion-toggle  i{
   border-left: 0 none;
   border-bottom: 0 none;
 }
-.animation{
-  white-space: nowrap;
-}
-.animated-item-2{
-  color: #fff ;
-  font-size: 1.8rem;
-}
+
 #partner {
   background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
   background-size: cover;
