@@ -566,7 +566,9 @@ background: linear-gradient(#b6d226, #3f8f2f);
   background: #f2f2f2;
   padding-bottom: 40px;
 }
-
+#feature h1,#services h1,#recent-works h1{ 
+  padding-bottom: 1.5rem;
+}
 .features{
   padding: 0;
 }
@@ -629,6 +631,7 @@ background: linear-gradient(#b6d226, #3f8f2f);
 }
 
 .recent-work-wrap img{
+  margin-top: -25px;
   width: 100%;
 }
 
@@ -708,7 +711,10 @@ background: linear-gradient(#b6d226, #3f8f2f);
 .services-wrap .pull-left {
   margin-right: 20px;
 }
-
+.card:hover{
+  transform: translateY(-10px);
+  transition: 0.5s ease;
+}
 #middle {
   background: #f2f2f2;
 }
