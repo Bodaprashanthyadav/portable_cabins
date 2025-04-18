@@ -73,25 +73,21 @@ jQuery(function($) {'use strict',
 
 
 
- jQuery(function($) {
-  // Get current file name from URL
-  let currentPage = window.location.pathname.split("/").pop();
 
-  // If no file name (like at "/"), treat it as "index.html"
-  if (currentPage === "") {
-    currentPage = "index.html";
-  }
+document.addEventListener("DOMContentLoaded", () => {
+  let currentPage = location.pathname.split("/").pop() || "index.html";
 
-  $(".navbar-nav li").each(function () {
-    const linkPage = $(this).find("a").attr("href");
-
-    if (linkPage === currentPage) {
-      $(this).addClass("active");
+  document.querySelectorAll(".navbar-nav li").forEach(li => {
+    const link = li.querySelector("a");
+    if (link.getAttribute("href") === currentPage) {
+      li.classList.add("active");
     } else {
-      $(this).removeClass("active");
+      li.classList.remove("active");
     }
   });
 });
+
+
 
 
 
